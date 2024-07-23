@@ -1,0 +1,19 @@
+div {
+    width: 40%;
+    padding: 2%;
+    margin-left: 28%;
+    margin-top: 30vh;
+    background-color: beige;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 10px;
+}
+
+
+button {
+    margin: 10px;
+}

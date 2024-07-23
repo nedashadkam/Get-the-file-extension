@@ -1,0 +1,45 @@
+<!-- #ex_04 یک تمرین جاوا اسکریپت برای دریافت پسوند نام فایل بنویسید.   -->
+
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-04.css" >
+
+</head>
+
+<body> 
+
+    <div>
+
+        <input type="file" id="fileName" >
+
+        <button onclick="output()" >Get the file extension</button>
+
+        <span id="demo"></span>
+
+
+    </div>
+
+
+
+    <script>
+
+        function output() {
+
+            let fileName = document.getElementById("fileName").value; 
+
+            let extension = fileName.split(".").pop();
+
+            document.getElementById("demo").innerHTML = "The file extension is : " + extension;
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
